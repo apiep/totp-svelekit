@@ -1,0 +1,33 @@
+{
+	"name": "totp-sveltekit",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"lint": "prettier --check --plugin-search-dir=. .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "next",
+		"prettier": "~2.2.1",
+		"prettier-plugin-svelte": "^2.2.0",
+		"svelte": "^3.34.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cookie": "^0.4.1",
+		"jsondb": "^1.0.0",
+		"lodash": "^4.17.21",
+		"lowdb": "^2.1.0",
+		"nedb": "^1.8.0",
+		"otplib": "^12.0.1",
+		"qrcode": "^1.4.4"
+	},
+	"prettier": {
+		"useTabs": true,
+		"tabWidth": 2,
+		"singleQuote": true
+	}
+}
